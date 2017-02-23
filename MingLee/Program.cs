@@ -88,7 +88,7 @@ using System.Threading.Tasks;
             }; 
            
           _client.ExecuteAndWait(async () => {
-                await _client.Connect("MjM0NzE4NzYwODk0ODU3MjE3.CtwVYQ.AnerpkcoNcazFPDC2HCipnSzVy8", TokenType.Bot); 
+              
                 
             });
             
