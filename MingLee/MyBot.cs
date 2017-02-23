@@ -15,7 +15,8 @@ namespace MingLee
 
         public MyBot()
         {
-            discord = new DiscordClient(x =>
+            discord = new DiscordClient();
+        }
             
 
         public void Bot_MessageReceived(object sender, MessageEventArgs e)

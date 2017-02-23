@@ -88,7 +88,7 @@ using System.Threading.Tasks;
             }; 
            
           _client.ExecuteAndWait(async () => {
-              
+                await _client.Connect("", TokenType.Bot); 
                 
             });
             
