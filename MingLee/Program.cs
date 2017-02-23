@@ -11,7 +11,7 @@ using System.Threading.Tasks;
     class Program
     {
         static void Main(string[] args) => new Program().Start();
-        //figure out no spam and say hello/goodbye when actviated
+        
 
         public DiscordClient _client;
 
