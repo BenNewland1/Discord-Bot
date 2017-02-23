@@ -39,10 +39,6 @@ using System.Threading.Tasks;
                     {
                         await e.Channel.SendMessage("Hi!");
                     }
-                    if (e.Message.Text.ToLower() == "demarco?")
-                    {
-                        await e.Channel.SendMessage("Demarco can't read this!");
-                    }
                     if (e.Message.Text.ToLower() == "pizza?")
                     {
                         await e.Channel.SendMessage("Ey b0ss can i habe a piza pls! https://youtu.be/6McY361EGvE?t=50");
@@ -50,7 +46,7 @@ using System.Threading.Tasks;
                     }
                     if (e.Message.Text.ToLower() == "!list")
                     {
-                        await e.Channel.SendMessage("Heres all my commands thus far 1.hi 2.weather 3.demarco? 4.pizza? 5.Hillary or Trump? 6.rekt 7.kms 8.!list");
+                        await e.Channel.SendMessage("Heres all my commands thus far 1.hi 2.weather 4.pizza? 5.Hillary or Trump? 6.rekt 7.kms 8.!list 9.sing to me");
 
                     }
                     if (e.Message.Text.ToLower() == "hillary or trump?")
@@ -68,21 +64,12 @@ using System.Threading.Tasks;
                         await e.Channel.SendMessage("https://streamable.com/25bo?t=1.8");
 
                     }
-                    if (e.Message.Text.ToLower() == "who is jason to you?")
-                    {
-                        await e.Channel.SendMessage("My Older brother");
-
-                    }
                     if (e.Message.Text.ToLower() == "sing to me")
                     {
                         await e.Channel.SendMessage(" https://www.youtube.com/watch?v=qlQItNqYg80 ");
 
                     }
-                    if (e.Message.Text.ToLower() == "who are you")
-                    {
-                        await e.Channel.SendMessage(" :minglee: ");
-
-                    }
+                    
                 }
 
             }; 
