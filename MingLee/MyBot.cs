@@ -23,6 +23,8 @@ namespace MingLee
             //if (e.Message.IsAuthor) return;
             if (e.Message.Text.ToLower() == "Hi") {
                 e.Channel.SendMessage("Hi");
+                //test
+
             }
             
 
