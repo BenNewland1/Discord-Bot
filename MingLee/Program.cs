@@ -21,7 +21,7 @@ using System.Threading.Tasks;
 
             _client.ServerAvailable += (s, e) =>
             {
-                e.Server.GetChannel(234750115171008522).SendMessage("Ming Lee is Online :white_check_mark: ");
+                e.Server.GetChannel(*****************).SendMessage("Ming Lee is Online :white_check_mark: ");
 
             };
 
